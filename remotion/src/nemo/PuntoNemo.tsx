@@ -20,19 +20,19 @@ export const PuntoNemo: React.FC = () => {
       <Sequence name="Gancho" from={0} durationInFrames={176}>
         <HookScene />
       </Sequence>
-      <Sequence name="Punto Nemo" from={176} durationInFrames={160}>
+      <Sequence name="Punto Nemo" from={176} durationInFrames={176}>
         <NemoScene />
       </Sequence>
-      <Sequence name="Distancia" from={336} durationInFrames={173}>
+      <Sequence name="Distancia" from={352} durationInFrames={172}>
         <DistanceScene />
       </Sequence>
-      <Sequence name="Estación espacial" from={509} durationInFrames={232}>
+      <Sequence name="Estación espacial" from={524} durationInFrames={212}>
         <IssScene />
       </Sequence>
-      <Sequence name="Cementerio" from={741} durationInFrames={237}>
+      <Sequence name="Cementerio" from={736} durationInFrames={237}>
         <GraveyardScene />
       </Sequence>
-      <Sequence name="Final" from={978} durationInFrames={267}>
+      <Sequence name="Final" from={973} durationInFrames={277}>
         <EndScene />
       </Sequence>
       <Captions />
@@ -43,19 +43,19 @@ export const PuntoNemo: React.FC = () => {
       <Sequence name="SFX ping" from={176} durationInFrames={2 * fps}>
         <Audio src={staticFile("nemo/ping.wav")} volume={0.5} />
       </Sequence>
-      <Sequence name="SFX boom gancho" from={123} durationInFrames={2 * fps}>
+      <Sequence name="SFX boom gancho" from={142} durationInFrames={2 * fps}>
         <Audio src={staticFile("nemo/boom.wav")} volume={0.6} />
       </Sequence>
-      <Sequence name="SFX whoosh 1" from={334} durationInFrames={fps}>
+      <Sequence name="SFX whoosh 1" from={350} durationInFrames={fps}>
         <Audio src={staticFile("nemo/whoosh.wav")} volume={0.5} />
       </Sequence>
-      <Sequence name="SFX whoosh 2" from={507} durationInFrames={fps}>
+      <Sequence name="SFX whoosh 2" from={522} durationInFrames={fps}>
         <Audio src={staticFile("nemo/whoosh.wav")} volume={0.5} />
       </Sequence>
-      <Sequence name="SFX whoosh 3" from={739} durationInFrames={fps}>
+      <Sequence name="SFX whoosh 3" from={734} durationInFrames={fps}>
         <Audio src={staticFile("nemo/whoosh.wav")} volume={0.5} />
       </Sequence>
-      <Sequence name="SFX boom final" from={1103} durationInFrames={2 * fps}>
+      <Sequence name="SFX boom final" from={1098} durationInFrames={2 * fps}>
         <Audio src={staticFile("nemo/boom.wav")} volume={0.8} />
       </Sequence>
     </AbsoluteFill>

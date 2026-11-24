@@ -1,122 +1,117 @@
 {
- "total": 40.569,
+ "total": 40.643,
  "scenes": [
   {
    "id": "hook",
    "start": 0.0,
-   "end": 5.871,
    "lines": [
     {
-     "text": "Si te pierdes aquí,",
+     "text": "Oye! Si te pierdes aquí, los humanos más cercanos no están en la Tierra...",
      "start": 0.0,
-     "end": 1.185
+     "end": 4.615
     },
     {
-     "text": "los humanos más cercanos no están en la Tierra.",
-     "start": 1.305,
-     "end": 3.865
-    },
-    {
-     "text": "Están en el espacio.",
-     "start": 4.115,
-     "end": 5.421
+     "text": "Están en el espacio!",
+     "start": 4.722,
+     "end": 5.749
     }
-   ]
+   ],
+   "end": 5.856
   },
   {
    "id": "nemo",
-   "start": 5.871,
-   "end": 11.211,
+   "start": 5.856,
    "lines": [
     {
      "text": "Esto es el Punto Nemo.",
-     "start": 5.871,
-     "end": 7.228
+     "start": 5.856,
+     "end": 8.216
     },
     {
-     "text": "El lugar más alejado de cualquier tierra firme del planeta.",
-     "start": 7.478,
-     "end": 10.761
+     "text": "El lugar más alejado de cualquier tierra firme del planeta!",
+     "start": 8.323,
+     "end": 11.62
     }
-   ]
+   ],
+   "end": 11.727
   },
   {
    "id": "dist",
-   "start": 11.211,
-   "end": 16.961,
+   "start": 11.727,
    "lines": [
     {
-     "text": "En pleno océano Pacífico.",
-     "start": 11.211,
-     "end": 12.882
+     "text": "Está en pleno océano Pacífico.",
+     "start": 11.727,
+     "end": 14.023
     },
     {
-     "text": "A más de dos mil seiscientos kilómetros de la costa más cercana.",
-     "start": 13.132,
-     "end": 16.511
+     "text": "A más de dos mil seiscientos kilómetros de la costa más cercana!",
+     "start": 14.13,
+     "end": 17.371
     }
-   ]
+   ],
+   "end": 17.479
   },
   {
    "id": "iss",
-   "start": 16.961,
-   "end": 24.694,
+   "start": 17.479,
    "lines": [
     {
      "text": "Pero la Estación Espacial pasa por encima a solo cuatrocientos kilómetros.",
-     "start": 16.961,
-     "end": 21.065
+     "start": 17.479,
+     "end": 21.01
     },
     {
-     "text": "Así que tus vecinos más cercanos serían astronautas.",
-     "start": 21.315,
-     "end": 24.244
+     "text": "O sea, tus vecinos más cercanos serían astronautas!",
+     "start": 21.117,
+     "end": 24.438
     }
-   ]
+   ],
+   "end": 24.545
   },
   {
    "id": "grave",
-   "start": 24.694,
-   "end": 32.611,
+   "start": 24.545,
    "lines": [
     {
-     "text": "Y hay algo más raro.",
-     "start": 24.694,
-     "end": 26.078
+     "text": "Y espera, que se pone mejor.",
+     "start": 24.545,
+     "end": 26.788
     },
     {
      "text": "Aquí es donde se estrellan los satélites viejos.",
-     "start": 26.328,
-     "end": 28.982
+     "start": 26.896,
+     "end": 29.398
     },
     {
-     "text": "En el fondo hay más de doscientas naves espaciales.",
-     "start": 29.232,
-     "end": 32.161
+     "text": "En el fondo hay más de doscientas naves espaciales!",
+     "start": 29.505,
+     "end": 32.312
     }
-   ]
+   ],
+   "end": 32.42
   },
   {
    "id": "end",
-   "start": 32.611,
-   "end": 40.569,
+   "start": 32.42,
    "lines": [
     {
-     "text": "Y hacia el dos mil treinta,",
-     "start": 32.611,
-     "end": 34.258
+     "text": "Y hacia el dos mil treinta...",
+     "start": 32.42,
+     "end": 34.988
     },
     {
-     "text": "la propia Estación Espacial acabará aquí abajo.",
-     "start": 34.378,
-     "end": 37.212
+     "text": "La propia Estación Espacial acabará aquí abajo!",
+     "start": 35.096,
+     "end": 38.244
     },
     {
-     "text": "Sígueme para más datos que no te dejan dormir.",
-     "start": 37.462,
-     "end": 40.119
+     "text": "Sígueme para más datos que te vuelan la cabeza!",
+     "start": 38.351,
+     "end": 40.536
     }
-   ]
+   ],
+   "end": 40.643
   }
  ]
 }

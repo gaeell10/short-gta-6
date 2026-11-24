@@ -101,7 +101,7 @@ export const HookScene: React.FC = () => {
             extrapolateRight: "clamp",
             easing: Easing.out(Easing.cubic),
           }),
-          opacity: interpolate(frame, [0, 6, 110, 125], [0, 1, 1, 0], {
+          opacity: interpolate(frame, [0, 6, 128, 142], [0, 1, 1, 0], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           }),
@@ -117,7 +117,7 @@ export const HookScene: React.FC = () => {
           left: 537,
           bottom: 1920 - 1040,
           width: 6,
-          height: interpolate(frame, [60, 125], [0, 640], {
+          height: interpolate(frame, [75, 142], [0, 640], {
             ...clamp,
             easing: Easing.inOut(Easing.cubic),
           }),
@@ -130,11 +130,11 @@ export const HookScene: React.FC = () => {
           position: "absolute",
           left: 340,
           top: 270,
-          opacity: interpolate(frame, [122, 130], [0, 1], {
+          opacity: interpolate(frame, [140, 148], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           }),
-          scale: interpolate(frame, [122, 135], [0.3, 1], {
+          scale: interpolate(frame, [140, 153], [0.3, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.out(Easing.back(2.5)),
@@ -320,8 +320,8 @@ export const DistanceScene: React.FC = () => {
       })}
       <Counter
         to={2688}
-        delay={50}
-        durationInFrames={60}
+        delay={65}
+        durationInFrames={55}
         suffix=" KM"
         style={{
           position: "absolute",
@@ -433,11 +433,11 @@ export const IssScene: React.FC = () => {
           fontSize: 116,
           lineHeight: 1.05,
           color: "white",
-          opacity: interpolate(frame, [125, 135], [0, 1], {
+          opacity: interpolate(frame, [105, 115], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           }),
-          scale: interpolate(frame, [125, 140], [0.6, 1], {
+          scale: interpolate(frame, [105, 120], [0.6, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.out(Easing.back(2)),
@@ -547,7 +547,7 @@ export const GraveyardScene: React.FC = () => {
       })}
       <Counter
         to={260}
-        delay={130}
+        delay={145}
         durationInFrames={45}
         suffix=""
         style={{
@@ -589,7 +589,7 @@ export const GraveyardScene: React.FC = () => {
           fontFamily: "monospace",
           fontSize: 44,
           color: CYAN,
-          opacity: interpolate(frame, [150, 165], [0, 1], {
+          opacity: interpolate(frame, [175, 190], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           }),
@@ -697,11 +697,11 @@ export const EndScene: React.FC = () => {
           fontFamily: titleFont,
           fontSize: 110,
           boxShadow: "0 0 60px rgba(255,212,0,.6)",
-          opacity: interpolate(frame, [150, 158], [0, 1], {
+          opacity: interpolate(frame, [175, 183], [0, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
           }),
-          scale: interpolate(frame, [150, 165], [0.4, 1], {
+          scale: interpolate(frame, [175, 190], [0.4, 1], {
             extrapolateLeft: "clamp",
             extrapolateRight: "clamp",
             easing: Easing.out(Easing.back(3)),

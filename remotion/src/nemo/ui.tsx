@@ -87,14 +87,15 @@ const KEYWORDS = [
   "kilómetros",
   "cuatrocientos",
   "astronautas",
-  "raro",
+  "mejor",
+  "oye",
   "satélites",
   "doscientas",
   "naves",
   "treinta",
   "estación",
   "sígueme",
-  "dormir",
+  "cabeza",
 ];
 
 /**

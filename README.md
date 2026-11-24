@@ -13,6 +13,7 @@ Para regenerarlo: `python3 build/tts.py <work>/vo em_alex build/script.json`, `p
 
 ## Short de prueba: Punto Nemo
 
-- `PuntoNemo_short.mp4`: short de prueba (1080x1920, 30 fps, 41 s) hecho con Remotion.
-- `nemo/script.json` (texto), `nemo/tts.py` (voz Kokoro `em_alex` + `timings.json`), `nemo/sound.py` (ambiente y SFX generados).
-- Composición: `remotion/src/nemo/` (id `PuntoNemo`). Regenerar: `python3 nemo/tts.py remotion/public/nemo em_alex remotion/src/nemo/timings.json`, `python3 nemo/sound.py remotion/public/nemo 42`, y `cd remotion && npx remotion render PuntoNemo ../PuntoNemo_short.mp4`.
+- `PuntoNemo_short.mp4`: short de prueba (1080x1920, 30 fps, 42 s) hecho con Remotion.
+- Voz: Higgsfield `seed_audio`, voz "Juan" (speech_rate 25), una generación por frase. Frases y enlaces en `nemo/voz_juan.json`; `nemo/montar_voz.py` las une, acelera un 12 % y genera `remotion/src/nemo/timings.json`.
+- `nemo/sound.py`: ambiente y SFX generados por código. `nemo/tts.py`: voz alternativa offline con Kokoro.
+- Composición: `remotion/src/nemo/` (id `PuntoNemo`). Render: `cd remotion && npx remotion render PuntoNemo ../PuntoNemo_short.mp4`.
