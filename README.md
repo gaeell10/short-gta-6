@@ -5,3 +5,8 @@
 - `build/`: script.json (texto), tts.py (voz Kokoro, voz `em_alex`), music.py (música y SFX generados), render.py (montaje)
 
 Para regenerarlo: `python3 build/tts.py <work>/vo em_alex build/script.json`, `python3 build/music.py <work>/sfx 90` y `python3 build/render.py <clip.mp4> <work> salida.mp4`.
+
+## Remotion
+
+- `remotion/`: proyecto Remotion (v4.0.546, plantilla blank). `cd remotion && npm install && npm run dev` abre el Studio; `npx remotion render` renderiza.
+- Skills de agente de Remotion en `remotion/.agents/skills/` (enlazadas en `.claude/skills` para Claude Code).
