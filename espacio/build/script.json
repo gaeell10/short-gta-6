@@ -1,0 +1,56 @@
+[
+ {
+  "id": "hook",
+  "num": null,
+  "title": "7 CURIOSIDADES DEL ESPACIO",
+  "text": "¡Hola, explorador! Hoy te traigo siete curiosidades del espacio que te van a dejar con la boca abierta. ¿Listo? ¡Despegamos!"
+ },
+ {
+  "id": "s1",
+  "num": 1,
+  "title": "VENUS",
+  "text": "Uno. En Venus, un día dura más que un año. Tarda doscientos cuarenta y tres días en girar sobre sí mismo, ¡pero solo doscientos veinticinco en darle la vuelta al Sol!"
+ },
+ {
+  "id": "s2",
+  "num": 2,
+  "title": "SATURNO",
+  "text": "Dos. Saturno es el planeta más ligerito para su tamaño. Si encontraras una bañera gigante para meterlo... ¡flotaría como un patito de goma!"
+ },
+ {
+  "id": "s3",
+  "num": 3,
+  "title": "EL SOL",
+  "text": "Tres. El Sol es enorme. Dentro de él cabrían más de un millón de planetas como la Tierra. ¡Un millón! Y su luz tarda unos ocho minutos en llegar hasta nosotros."
+ },
+ {
+  "id": "s4",
+  "num": 4,
+  "title": "LA LUNA",
+  "text": "Cuatro. Las huellas de los astronautas en la Luna siguen ahí. Como no hay viento ni lluvia que las borre, ¡pueden durar millones de años!"
+ },
+ {
+  "id": "s5",
+  "num": 5,
+  "title": "MARTE",
+  "text": "Cinco. En Marte, los atardeceres son azules. Justo al revés que aquí, donde el cielo es azul de día y naranja al atardecer. ¡Qué bonito!, ¿verdad?"
+ },
+ {
+  "id": "s6",
+  "num": 6,
+  "title": "ESTRELLA DE NEUTRONES",
+  "text": "Seis. Una estrella de neutrones es tan densa que una sola cucharadita pesaría miles de millones de toneladas. Es como meter una montaña entera en una cuchara. ¡Cuidado con la sopa!"
+ },
+ {
+  "id": "s7",
+  "num": 7,
+  "title": "ESTRELLAS Y ARENA",
+  "text": "Y siete. Hay más estrellas en el universo que granos de arena en todas las playas de la Tierra. Y cada una de esas estrellas es un sol. ¡Alucinante!"
+ },
+ {
+  "id": "cta",
+  "num": null,
+  "title": "",
+  "text": "Si te ha gustado, dale a me gusta y sígueme para más viajes por el espacio. ¡Hasta la próxima, explorador!"
+ }
+]
